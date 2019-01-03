@@ -10,7 +10,7 @@ class School
      @add_student = {
        name: grade
      }
-     @roster << add_student(name, grade)
+     @roster << @add_student(name, grade)
    end
    
 end
